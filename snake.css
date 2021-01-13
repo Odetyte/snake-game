@@ -51,3 +51,24 @@ h1, h2 {
   font-size: 22px;
   color: #4c7f57;
 }
+
+#overlay {
+  display: none;
+}
+
+.overlay-sleek {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 22px;
+  background-color: #9bc1bc;
+  /* z-index: auto; */
+  text-align: center;
+  color: black;
+  line-height: 100px;
+}
